@@ -410,3 +410,35 @@ footer {
     50% { opacity: 0.3; }
 }
 
+@media screen and (max-width: 768px) {
+    .header h1, 
+    .mission p, 
+    .about-body, 
+    .about-headline {
+        width: 85vw !important;
+    }
+    .text-container {
+        margin-left: 5vw;
+        justify-content: center;
+    }
+    .potrait {
+        left: 5vw;
+        top: 35vh;
+        height: 45vh;
+        opacity: 0.3;
+    }
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .social-links {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .project-image img {
+        width: 45vw;
+        height: auto;
+    }
+}
+
